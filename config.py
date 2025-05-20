@@ -69,7 +69,7 @@ class AttrDict:
         setting_path = os.path.normpath(os.path.join(base_path, "setting", rel_path))
         setting_name = os.path.basename(setting_path).split(".")[0]
 
-        with open(setting_path, "r") as f:
+        with open(setting_path, "r", encoding="utf8") as f:
             overrided_setting = yaml.load(f,Loader=yaml.FullLoader)
             # if  'setting_name' not in overrided_setting:
             #    raise RuntimeError('you must provide a setting name for non root_setting: {}'.format(rel_path))
