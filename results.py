@@ -23,8 +23,11 @@ ROOT = r"E:\ShareID\TestDataSets\Celeb-DF-v2\laa-net_test_celeb"
 FAKE_TYPE = ["Celeb-real", "Celeb-synthesis", "YouTube-real"]
 EXTENSIONS = {".mp4"}
 max_frame = 400
+#relative to ROOT
 out_dir = "results"
+#Relative to AltFreezing
 cfg_path = "i3d_ori.yaml"
+#Relative to working directory where script is launched
 ckpt_path = "checkpoints/model.pth"
 optimal_threshold = 0.04
 
