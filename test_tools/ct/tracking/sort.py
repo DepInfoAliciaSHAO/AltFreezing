@@ -18,8 +18,8 @@
 from __future__ import print_function
 import os.path
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+#import matplotlib.pyplot as plt
+#import matplotlib.patches as patches
 from scipy.optimize import linear_sum_assignment
 import glob
 import time
