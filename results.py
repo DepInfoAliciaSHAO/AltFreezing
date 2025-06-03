@@ -21,7 +21,7 @@ std = torch.tensor([0.229 * 255, 0.224 * 255, 0.225 * 255]).cuda().view(1, 3, 1,
 
 ROOT = r"E:\ShareID\TestDataSets\Celeb-DF-v2\laa-net_test_celeb"
 FAKE_TYPE = ["Celeb-real", "Celeb-synthesis", "YouTube-real"]
-EXTENSIONS = {".mp4"}
+EXTENSIONS = {".mp4", ".mov", ".MOV"}
 max_frame = 400
 #relative to ROOT
 out_dir = "results"
